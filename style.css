@@ -1,0 +1,107 @@
+/* Resetare de bază */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stil general pentru pagină */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Centrarea principală a paginii */
+.page-container {
+    text-align: center;
+    width: 100%;
+}
+
+/* Stil pentru afișarea numelui utilizatorului */
+.user-info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Container central */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Titluri și texte */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Stil pentru link-uri */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Stil pentru butoane */
+button, input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Stil pentru input-uri */
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Stil pentru mesajul de eroare */
+.error-message {
+    background-color: #f8d7da;  /* Fundal roșu deschis */
+    color: #721c24;  /* Text roșu închis */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;  /* Face textul mai vizibil */
+}
+
+
+
+
+
